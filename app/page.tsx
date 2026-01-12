@@ -231,7 +231,7 @@ export default function Home() {
         <Flex
           gap="4"
           style={{ width: "100%", maxWidth: "900px" }}
-          className="flex flex-col md:flex-row"
+          className="flex flex-col md:flex-row px-2 md:px-0" // 增加了手机端左右边距 px-2
         >
           {/* 左侧卡片 */}
           <LeftCard
