@@ -44,7 +44,7 @@ export const LeftCard = ({
   onToggleStarred,
 }: LeftCardProps) => {
   return (
-    <Card size="4" style={{ flex: 2 }} className="hidden md:flex">
+    <Card size="4" style={{ flex: 2, minHeight: "500px" }} className="flex">
       <Flex direction="column" gap="3" style={{ flex: 1 }}>
         <Box>
           <Flex gap="3">
